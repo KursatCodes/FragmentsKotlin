@@ -7,7 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 class Fragment1 : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
+
     }
 
     override fun onCreateView(
@@ -16,5 +18,11 @@ class Fragment1 : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_1, container, false)
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        
+
     }
 }
