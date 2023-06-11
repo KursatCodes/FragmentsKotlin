@@ -13,19 +13,17 @@
         android:id="@+id/textview1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_blank_fragment"
         android:layout_gravity="center"
-        android:textSize="27sp"
         android:layout_marginTop="50dp"
-        />
+        android:text="fragment 1"
+        android:textSize="27sp" />
+
     <Button
-        android:layout_width="wrap_content"
+        android:id="@+id/button"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="27sp"
-        android:text="Next Fragment"
-        android:id="@+id/button1"
-        android:layout_gravity="center"
-        android:layout_marginTop="30dp"
-        ></Button>
+        android:layout_margin="30dp"
+        android:text="next fragment"
+        android:textSize="27sp" />
 
 </LinearLayout>

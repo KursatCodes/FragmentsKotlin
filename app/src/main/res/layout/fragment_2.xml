@@ -14,11 +14,10 @@
         android:id="@+id/textview2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_blank_fragment"
         android:layout_gravity="center"
-        android:textSize="27sp"
         android:layout_marginTop="50dp"
-        />
+        android:text="fragment 2"
+        android:textSize="27sp" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
